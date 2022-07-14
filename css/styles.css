@@ -1,0 +1,98 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+}
+
+body{
+  background-color: #E5E5E5;
+  color: var(--primary-text-color);
+}
+
+/* Хедер */
+
+.header {
+    background-color: #FFFFFF;
+}
+
+.header-logo {
+    color: #000000;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* Герой */
+
+.hero {
+  background-color: #2F303A;
+}
+
+.hero-title {
+  color: #FFFFFF;
+}
+
+
+/* Качества */
+
+.features-list .title{
+    color: var(--title-text-color);
+}
+
+/* Чем занимаемся */
+
+.projects .projects-title {
+    color: var(--title-text-color)
+}
+
+/* Наша команда */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team .team-title {
+    color: var(--title-text-color)
+}
+
+.team-list .subtitle{
+    color: var(--title-text-color);
+}
+
+/* Футер */
+
+.footer {
+    background-color: #2F303A;;
+}
+
+.footer-logo {
+    color: #FFFFFF;
+}
+
+.adress .adress-point{
+    color: #FFFFFF;
+}
+
+.adress .adress-link{
+    color: rgba(255, 255, 255, 0.6);;
+}
