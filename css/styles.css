@@ -2,17 +2,19 @@
     --primary-text-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
 }
 
 body{
-  background-color: #E5E5E5;
-  color: var(--primary-text-color);
+    color: var(--primary-text-color);
+    background-color: #E5E5E5;
+  
 }
 
 /* Хедер */
 
 .header {
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
 }
 
 .header-logo {
@@ -36,6 +38,10 @@ body{
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 .contact-nav .link:hover,
 .contact-nav .link:focus {
     color: var(--accent-color);
@@ -49,7 +55,7 @@ body{
 }
 
 .hero-title {
-  color: #FFFFFF;
+  color: var(--primary-white-color);
 }
 
 
@@ -61,7 +67,7 @@ body{
 
 /* Чем занимаемся */
 
-.projects .projects-title {
+.activity .activity-title {
     color: var(--title-text-color)
 }
 
@@ -86,13 +92,42 @@ body{
 }
 
 .footer-logo {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 .adress .adress-point{
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 .adress .adress-link{
     color: rgba(255, 255, 255, 0.6);;
+}
+
+/* Кнопки */
+
+.button {
+
+}
+
+.button.primary {
+color: var(--primary-white-color)
+;
+background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.button-list .button.secondary:hover,
+.button-list .button.secondary:focus {
+color: var(--primary-white-color);
+background-color: var(--accent-color);
+}
+
+/* Страница портфолио */
+
+.projects-list .title {
+    color: var(--title-text-color);
 }
