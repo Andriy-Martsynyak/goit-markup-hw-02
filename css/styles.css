@@ -30,6 +30,9 @@ body{
     overflow: hidden;
 }
 
+.list {
+    list-style: none;
+}
 /* Хедер */
 
 .header {
@@ -51,9 +54,7 @@ body{
     color: var(--accent-color);
 }
 
-.list {
-    list-style: none;
-}
+
 
 .site-nav .link,
 .contact-nav .link{
@@ -162,7 +163,7 @@ body{
     line-height: 1.71;
 }
 
-.adress .adress-link{
+.adress .adress-link {
     color: var(--adress-color);
     font-style: normal;
     font-size: 14px;
@@ -172,45 +173,51 @@ body{
 /* Кнопки */
 
 .button {
+    color: var(--title-text-color);
+    background-color: var(--primary-grey-color);
 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+
+    cursor: pointer;
 }
 
 .button.primary {
-color: var(--primary-white-color)
-;
+color: var(--primary-white-color);
 background-color: var(--accent-color);
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+cursor: pointer;
 }
 
-.button.secondary {
-    color: var(--title-text-color);
-    background-color: var(--primary-grey-color);
-}
-
-.button-list .button.secondary:hover,
-.button-list .button.secondary:focus {
+.button-list .button:hover,
+.button-list .button:focus {
 color: var(--primary-white-color);
 background-color: var(--accent-color);
 }
 
 /* Страница портфолио */
 
+
+
 .projects-list .title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
 }
 
-/* .projects > h1 {
-    visually-hidden {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            border: 0;
-            padding: 0;
-            white-space: nowrap;
-            clip-path: inset(100%);
-            clip: rect(0 0 0 0);
-            overflow: hidden;
-            12
-        }
-} */
-
+.projects-list .text {
+    font-size: 16px;
+    line-height: 1.88;
+}
